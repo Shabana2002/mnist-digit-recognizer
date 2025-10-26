@@ -84,7 +84,7 @@ def display_prediction(img: Image.Image, show_debug: bool = True):
         color = "orange"
         emoji = "❄️"
         msg = "I think it’s..."
-        st.snow()  # ❄️ Snow effect for confidence > 0.7
+         # st.snow()  # ❄️ Snow effect for confidence > 0.7
     else:
         color = "red"
         emoji = "❌"
